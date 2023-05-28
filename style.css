@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Wix Madefor Text', sans-serif;
+}
+
+input{
+    border: none;
+}
+
+/*Header*/
+.top-barra{
+    background-color: #222222;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: aliceblue;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.nav-lista{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav-lista a{
+    text-decoration: none;  
+    color: antiquewhite;
+    font-weight: 200;
+}
+
+/*Hero*/
+
+.contenedor-header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F0A83E;
+    padding: 20px;
+}
+
+.nav-lista li{
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.paw-icon{
+    color: aliceblue;
+}
+
+/* Banner */
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner{
+    background-image: url(Media/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.contenedor-texto-banner{
+    position: absolute;
+    right: 100px;
+    top: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.contenedor-texto-banner h1{
+    background-color: aliceblue;
+    border-radius: 8px;
+    font-weight: 200;
+    padding: 18px;
+}
+
+.contenedor-texto-banner p{
+    font-size: 20px;
+    padding: 8px;
+}
+
+.boton-banner{
+    background-color: #F0A83E;
+    color: aliceblue;
+    border-radius: 12px;
+    padding: 16px 24px;
+    transition: all 1s ease;
+}
+
+.boton-banner:hover{
+    transform: scale(1.2);
+    background-color: #b07d2f;
+}
+
+/* Productos Deseados */
+
+.paw-product-icon{
+    font-size: 96px;
+    color: #F0A83E;
+
+}
+
+.productos-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.productos-head h2{
+    font-size: 66px;
+}
+
+.productos-head p{
+    font-weight: 300;
+}
+
+/* Card productos*/
+
+.card-container{
+    margin: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAF9F6;
+    gap: 5px;
+    padding-bottom: 10px;
+}
+
+.card :nth-child(3){
+    color: #F0A83E;
+    font-weight: bold;
+}
+
+/* Formulario Container */
+
+#contactanos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.mi-input{
+    display: block;
+    padding: 10px 80px 10px 10px ;
+    border-radius:20px ;
+    background-color: #222222;
+}
+
+.mi-input::placeholder, .suscripcion-boton{
+    color: rgb(195, 202, 209);
+}
+
+.form-boton button{
+    padding: 10px 15px ;
+    border-radius: 15px;
+    color: aliceblue;
+    border: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.boton-plomo{
+    background-color: #8A8787;
+}
+
+.boton-naranja{
+    background-color: #F0A83E;
+}
+
+/* Suscripcion */
+
+.suscripcion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0A83E;
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+
+.mail-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.mail-container span{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.suscripcion-input{
+    padding: 10px 80px 10px 10px ;
+    border-radius:15px ;
+}
+
+.suscripcion-boton{
+    padding: 10px;
+    border-radius:20px ;
+    background-color: #222222;
+}
+
+/*Footer*/
+
+footer{
+    background-color: #3C2313;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+#iconos-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.icono-diseño{
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    gap: 15px;
+    margin: 15px 20px;
+}
+
+.icono-diseño span{
+    font-size: 10px;
+    font-weight: bold;
+    color: #8A8787;
+}
+
+.logo-footer, #iconos-footer{
+    margin: 10px 40px;
+}
+
+.derechos{
+    background-color: #222222;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+}
+
+.iconos-redes{
+    font-size: 32px;
+    color: aliceblue;
+    padding: 10px;
+}
