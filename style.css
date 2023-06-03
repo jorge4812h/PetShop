@@ -53,6 +53,7 @@ input{
 
 main{
     display: flex;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -121,6 +122,7 @@ main{
 
 .productos-head h2{
     font-size: 66px;
+    text-align: center;
 }
 
 .productos-head p{
@@ -202,6 +204,7 @@ form{
 
 .suscripcion{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     background-color: #F0A83E;
